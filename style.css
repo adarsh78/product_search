@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+*, *::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   display: grid;
+   place-items: center;
+   margin: auto;
+   background-color: rgb(222, 216, 216);
+   min-height: 100vh;
+   font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 2rem;
+    margin-bottom: -5rem;
+}
+
+.container{
+    width: 22rem;
+    height: 35rem;
+    background-color: #fff;
+    padding: 10px 12px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.06);
+    overflow-y: scroll;
+    background-color: rgb(119, 234, 207);
+}
+
+.container::-webkit-scrollbar{
+    display: none;
+}
+
+.container form{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container form input{
+    border: none;
+    outline: none;
+    padding: 8px 10px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgb(119, 234, 207);
+}
+
+.container form i{
+    padding-left: 0.5rem;
+}
+
+.productList{
+    padding: 20px 0;
+}
+
+.product{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+.product img{
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.productDetails h2{
+    font-size: 1rem;
+}
+
+.productDetails h3{
+    font-size: 0.8rem;
+}
