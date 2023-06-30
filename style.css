@@ -84,3 +84,15 @@ h1{
 .productDetails h3{
     font-size: 0.8rem;
 }
+
+h5{
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.cart{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 0.7rem;
+}
